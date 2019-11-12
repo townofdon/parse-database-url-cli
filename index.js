@@ -1,10 +1,16 @@
 #!/usr/bin/env node
 
+const parseDbUrl = require("parse-database-url");
+
 function main() {
   if (!process.argv || !process.argv.length > 1) {
     errorDie('You need to supply the database url as the first command line arg.')
   }
   const dbUrl = process.argv[1];
+
+  const dbConfig = parseDbUrl(dbUrl);
+
+  console.log(dbConfig);
 
   // parse the db and display
   exitSuccess();
