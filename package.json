@@ -1,0 +1,11 @@
+{
+  "name": "database-url-parser-cli",
+  "version": "0.0.1",
+  "description": "A simple cli tool for quickly parsing database urls and displaying them in the terminal",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Don Juan Javier",
+  "license": "MIT"
+}
