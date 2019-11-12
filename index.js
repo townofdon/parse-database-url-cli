@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 
 function main() {
   if (!process.argv || !process.argv.length > 1) {
